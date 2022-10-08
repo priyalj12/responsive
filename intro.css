@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+   width: 100%;
+   height: 100%;
+   
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+#box{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 120px;
+    height: 120px;
+    background-color: red;
+}
+@media (max-width:500px) {
+   #box{
+    top: 30%;
+    background-color: blue;
+   }
+}
